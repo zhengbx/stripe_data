@@ -1,0 +1,98 @@
+method,system,boundary,state,energy,error
+AFQMC,16x4,"(PBC,open)/AFM",stripe 8,-0.7744,0.0001
+AFQMC,16x6,"(PBC,open)/AFM",stripe 8,-0.7725,0.0002
+AFQMC,24x4,"(PBC,open)/FM",stripe 8,-0.7727,0.0002
+AFQMC,32x6,"(PBC,open)/AFM",stripe 8,-0.7691,0.0002
+AFQMC,48x4,"(PBC,open)/AFM",stripe 8,-0.7701,0.0001
+AFQMC,48x4_wave12,"(PBC,open)/AFM",stripe 12,-0.7699,0.0001
+AFQMC,40x4_FM,"(PBC,open)/One Side",stripe 8,-0.7663,0.0001
+AFQMC,40x4,"(PBC,open)/One Side",stripe 10,-0.7665,0.0003
+AFQMC,16x6,"(PBC,open)/FM",stripe 5,-0.7692,0.0001
+AFQMC,32x6,"(PBC,open)/AFM",stripe 5,-0.7663,0.0001
+AFQMC,40x4,"(PBC,open)/One Side",stripe 5,-0.7657,0.0002
+AFQMC,48x4,"(PBC,open)/AFM",stripe 6,-0.7693,0.0001
+AFQMC,12x8,PBC,stripe 6,-0.7653,0.0002
+AFQMC,14x8,PBC,stripe 7,-0.7653,0.0002
+AFQMC,16x8,PBC,stripe 8,-0.7668,0.0002
+AFQMC,18x8,PBC,stripe 9,-0.7655,0.0002
+AFQMC,20x8,PBC,stripe 10,-0.7653,0.0002
+AFQMC,12x8,TABC,stripe 6,-0.7701,0.0003
+AFQMC,14x8,TABC,stripe 7,-0.7703,0.0003
+AFQMC,16x8,TABC,stripe 8,-0.7706,0.0003
+AFQMC,18x8,TABC,stripe 9,-0.7707,0.0003
+AFQMC,20x8,TABC,stripe 10,-0.7703,0.0003
+AFQMC,32x4,PBC/pinning,-,-0.7717,0.0002
+AFQMC,32x6,PBC/pinning,-,-0.7691,0.0002
+AFQMC,32x8,PBC/pinning,-,-0.7688,0.0002
+AFQMC,32x10,PBC/pinning,-,-0.7691,0.0002
+AFQMC,32xinf,PBC/pinning,-,-0.769,0.001
+AFQMC,8xinf,PBC/pinning,stripe 8,-0.766,0.001
+DMET,2x2,PBC,BCS,-0.758037973,0.000479297
+DMET,3x2,PBC,stripe 3,-0.743694893,0.000859043
+DMET,4x2,PBC,stripe 4,-0.752191543,0.000292389
+DMET,4x2_pi,"(PBC,APBC)",stripe 4,-0.761449405,4.94E-05
+DMET,5x2,PBC,stripe 5,-0.769082605,0.001
+DMET,6x2_pi,"(PBC,APBC)",stripe 6,-0.770644038,6.94E-05
+DMET,7x2,PBC,stripe 7,-0.770376252,0.000336845
+DMET,8x2_pi,"(PBC,APBC)",stripe 8,-0.770629243,1.00E-05
+DMET,9x2,PBC,stripe 9,-0.7657878,0.00081895
+DMET,2sqrt2xsqrt2,PBC,BCS,-0.761963419,1.00E-05
+DMET,5sqrt2xsqrt2,PBC,diag_stripe 5,-0.76893,0.000776246
+DMRG,8x4,"(PBC,open)",stripe 8,-0.776373349,3.59E-07
+DMRG,16x4,"(PBC,open)",stripe 8,-0.771267707,1.85E-05
+DMRG,24x4,"(PBC,open)",stripe 8,-0.769397176,3.30E-05
+DMRG,infx4,"(PBC,open)",stripe 8,-0.765986928,3.91E-05
+DMRG,16x6_w5,"(PBC,open)",stripe 5,-0.7473882,0.000347806
+DMRG,32x6_w5,"(PBC,open)",stripe 5,-0.754269471,0.000350585
+DMRG,infx6_w5,"(PBC,open)",stripe 5,-0.761150743,0.000756424
+DMRG,16x6_w5_h,"(PBC,open)/FM",stripe 5,-0.768246254,0.00029024
+DMRG,32x6_w5_h,"(PBC,open)/AFM",stripe 5,-0.764815159,0.000319493
+DMRG,48x6_w5_h,"(PBC,open)/FM",stripe 5,-0.763784901,0.000346455
+DMRG,infx6_w5_h,"(PBC,open)/pinning",stripe 5,-0.761501867,0.000407581
+DMRG,16x6_w8,"(PBC,open)",stripe 8,-0.748246918,0.000627035
+DMRG,32x6_w8,"(PBC,open)",stripe 8,-0.755276697,0.000838659
+DMRG,infx6_w8,"(PBC,open)",stripe 8,-0.762306476,0.001794439
+DMRG,16x6_w8_h,"(PBC,open)/AFM",stripe 8,-0.769184362,0.000479819
+DMRG,32x6_w8_h,"(PBC,open)/AFM",stripe 8,-0.765885939,0.000721007
+DMRG,infx6_w8_h,"(PBC,open)/pinning",stripe 8,-0.762587515,0.001439772
+DMRG,16x7,"(PBC,open)",stripe 7,-0.747048588,0.001195519
+DMRG,32x7,"(PBC,open)",stripe 7,-0.75480896,0.00099551
+DMRG,48x7,"(PBC,open)",stripe 7,-0.757780841,0.001333331
+DMRG,infx7,"(PBC,open)",stripe 7,-0.762969233,0.001717084
+DMRG,infx6_w9,"(PBC,open)",stripe 9,-0.751,0.0016
+DMRG,16x4_sc,"(PBC,open)/pairing",BCS,-0.770451041,3.78E-05
+DMRG,32x4_sc,"(PBC,open)/pairing",BCS,-0.767175745,0.00012256
+DMRG,infx4_sc,"(PBC,open)/pairing",BCS,-0.763900448,0.000198197
+hybridDMRG,16x4_pbc,"(PBC,open)",stripe 8,-0.75114,0.00002
+hybridDMRG,32x4_pbc,"(PBC,open)",stripe 8,-0.75841,0.00002
+hybridDMRG,48x4_pbc,"(PBC,open)",stripe 8,-0.76079,0.00002
+hybridDMRG,64x4_pbc,"(PBC,open)",stripe 8,-0.7621,0.0005
+hybridDMRG,infx4_pbc,"(PBC,open)",stripe 8,-0.7657,0.0003
+hybridDMRG,16x4_apbc,"(APBC,open)",stripe 8,-0.74712,0.00002
+hybridDMRG,32x4_apbc,"(APBC,open)",stripe 8,-0.75382,0.00003
+hybridDMRG,48x4_apbc,"(APBC,open)",stripe 8,-0.75604,0.00004
+hybridDMRG,64x4_apbc,"(APBC,open)",stripe 8,-0.75725,0.00006
+hybridDMRG,infx4_apbc,"(APBC,open)",stripe 8,-0.76057,0.00007
+hybridDMRG,16x6_pbc_w5,"(PBC,open)",stripe 5,-0.74745,0.00002
+hybridDMRG,32x6_pbc_w5,"(PBC,open)",stripe 5,-0.754702,0.00003
+hybridDMRG,48x6_pbc_w5,"(PBC,open)",stripe 5,-0.75727,0.00001
+hybridDMRG,64x6_pbc_w5,"(PBC,open)",stripe 5,-0.75842,0.00004
+hybridDMRG,infx6_pbc_w5,"(PBC,open)",stripe 5,-0.7621,0.00005
+hybridDMRG,16x6_pbc_w8,"(PBC,open)",stripe 8,-0.7481,0.0002
+hybridDMRG,32x6_pbc_w8,"(PBC,open)",stripe 8,-0.7556,0.0007
+hybridDMRG,48x6_pbc_w8,"(PBC,open)",stripe 8,-0.7577,0.0003
+hybridDMRG,64x6_pbc_w8,"(PBC,open)",stripe 8,-0.7591,0.0002
+hybridDMRG,infx6_pbc_w8,"(PBC,open)",stripe 8,-0.7627,0.0005
+iPEPS,2x2,PBC,d-wave,-0.7560,0.0025
+iPEPS,5x2,PBC,stripe 5 / BCS,-0.7632,0.0018
+iPEPS,7x2,PBC,stripe 7 / BCS,-0.7629,0.0026
+iPEPS,16x2,PBC,stripe 8,-0.7673,0.002
+iPEPS,16x16,PBC,diag_stripe,-0.7581,0.0014
+UHF,8x2,TABC,stripe 4,  -1.091246224,0.000377637
+UHF,10x2,TABC,stripe 5, -1.092967433,0.000302049
+UHF,12x2,TABC,stripe 6, -1.094434235,0.000197225
+UHF,14x2,TABC,stripe 7, -1.097902527,0.000249735
+UHF,16x2,TABC,stripe 8, -1.100411582,0.000133857
+UHF,18x2,TABC,stripe 9, -1.099316815,0.000112529
+UHF,20x2,TABC,stripe 10,-1.098352432,0.000177717
+UHF,22x2,TABC,stripe 11,-1.097439069,0.00019093
